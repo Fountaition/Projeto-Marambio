@@ -1,0 +1,71 @@
+# ========================
+# Node (geral)
+# ========================
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ========================
+# Electron (Desktop)
+# ========================
+Desktop/dist/
+Desktop/build/
+Desktop/release/
+Desktop/node_modules/
+Desktop/*.exe
+Desktop/*.dmg
+Desktop/*.AppImage
+
+# ========================
+# React Native (Mobile)
+# ========================
+Mobile/node_modules/
+
+# Android
+Mobile/android/.gradle/
+Mobile/android/build/
+Mobile/android/app/build/
+
+# iOS
+Mobile/ios/build/
+Mobile/ios/Pods/
+Mobile/*.xcworkspace
+
+# Expo / Metro
+Mobile/.expo/
+Mobile/.expo-shared/
+Mobile/metro-cache/
+
+# ========================
+# Logs
+# ========================
+logs/
+*.log
+
+# ========================
+# Env
+# ========================
+.env
+.env.local
+.env.*.local
+
+# ========================
+# OS / IDE
+# ========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ========================
+# Cache
+# ========================
+.cache/
+.tmp/
+.temp/
+
+# ========================
+# Test
+# ========================
+coverage/

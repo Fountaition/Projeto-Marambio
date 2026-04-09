@@ -1,0 +1,43 @@
+{
+  "name": "Circus_Bank",
+  "version": "v0.0.1",
+  "main": "main.js",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^9.2.1",
+    "electron": "^41.1.1",
+    "electron-builder": "^26.8.1",
+    "wait-on": "^9.0.4"
+  },
+  "scripts": {
+    "dev": "concurrently \"cd Render && yarn dev\" \"wait-on http://localhost:5173 && electron .\"",
+    "prod": "electron .",
+
+    "build:react": "cd Render && yarn build",
+    "build": "yarn build:react && electron-builder"
+  },
+
+  "build": {
+    "appId": "Circo.Bank.desktop",
+    "productName": "Circo Bank",
+    "directories": {
+      "buildResources": "assets"
+    },
+    "files": [
+      "main.js",
+      "Render/dist/**/*",
+      "package.json"
+    ],
+    "win": {
+      "target": "nsis",
+      "icon": "Assets/Circus.ico"
+    },
+    "nsis": {
+    "oneClick": false,
+    "perMachine": false,
+    "allowToChangeInstallationDirectory": true,
+    "createDesktopShortcut": true,
+    "createStartMenuShortcut": true
+  }
+  }
+}

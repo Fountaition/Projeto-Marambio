@@ -1,0 +1,39 @@
+- Maquina de ingressos: Taxa de 10%
+Em caso de nossa propria ferramenta, 10% é muito, podemos deixar menos por questões de "Temos outros serviços"
+
+- Relatorio apenas pelo PC
+Ver com o Paulo sobre deixar o celular apenas para ferramentas no começo ou descartar
+
+- Maquinas diversas podem ser integradas?
+Aguardar resposta se há um output
+
+- Levantamento custos e porcentagens
+Considerações: 
+    Gastos semanais
+    Licensas(Anuais)
+    Processamento por cliente(Firebase)
+    Extras(MailBox, bots, criptografias)
+    x
+    Gastos do cliente atuais(Equipamentos, taxas e impostos)
+
+/-/-/-/-/-/-/
+
+- Relatorio Fantasma (Sonegação)
+Taticas de fuga:
+    Integrar relatorios "não curriculares"(usar de desculpa doações, venda de itens, algo para evitar suspeitas)
+    Não conectar diretamente ao governo(Perguntar ao usuario ou nem enviar)
+    Perfil teste(Perfil separado que permite edição livre do usuario, sendo ainda sim usado no BI principal)
+
+/-/-/-/-/-/-/
+
+- Automação 
+Registrar automaticamente vendas com o relatorio ou vice versa
+Adaptar para nosso banco
+
+- Dificuldade no acesso
+
+- Ferramentas proprias
+Bilheteria
+    Ver questões juridicas(Impostos sobre as vendas se é feita diretamente pela maquina ou calculada no final)
+    Acessibilidade (dificuldade a conectar em ferramentas)
+    Automação para o governo se necessario(Cuidar com os Relatorios Fantasma)
