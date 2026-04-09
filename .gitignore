@@ -69,3 +69,30 @@ Thumbs.db
 # Test
 # ========================
 coverage/
+
+# ========================
+# Firebase
+# ========================
+Firebase/.firebase/
+Firebase/firebase-debug.log
+Firebase/firestore-debug.log
+Firebase/ui-debug.log
+
+# ========================
+# Functions (Node dentro do Firebase)
+# ========================
+Firebase/functions/node_modules/
+Firebase/functions/.env
+Firebase/functions/lib/  # se estiver usando build (TypeScript)
+
+# ========================
+# Env geral dentro do Firebase
+# ========================
+Firebase/.env
+Firebase/.env.*
+
+# ========================
+# Logs
+# ========================
+Firebase/logs/
+Firebase/*.log
